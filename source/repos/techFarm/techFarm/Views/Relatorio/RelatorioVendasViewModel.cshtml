@@ -1,0 +1,37 @@
+﻿@model techFarm.Models.RelatorioVendasViewModel
+
+@{
+    decimal valorTotal = 0;
+    Model.Vendas.ForEach((v) => valorTotal = valorTotal + v.Preco);
+
+
+}
+
+<h2>Relatório de Vendas</h2>
+<p>Data de Início: @Model.DataInicio.ToShortDateString()</p>
+<p>Data de Fim: @Model.DataFim.ToShortDateString()</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Produto</th>
+            <th>Quantidade (kg)</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var venda in Model.Vendas)
+        {
+            <tr>
+                <td>@venda.DataDaVenda.ToShortDateString()</td>
+                <td>@venda.LoteGrao.TipoDeGrao</td>
+                <td>@venda.QuantidadeKGVendida KG</td>
+                <td>R$ @venda.Preco.ToString("C")</td>
+            </tr>
+        }
+
+        <hr />
+        <p> <b>Valor total de vendas: R$ @valorTotal </b> </p> 
+    </tbody>
+</table>

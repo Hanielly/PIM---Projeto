@@ -1,0 +1,45 @@
+﻿@model IEnumerable<techFarm.Models.Semente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Sementes</h1>
+
+<table class="table table-success table-striped">
+    <thead>
+        <tr>
+            <th>Tipo de Grão</th> <!-- Ajuste feito diretamente no texto -->
+            <th>KG</th>
+            <th>Fornecedor</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoDeGrao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KG)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-controller="Fornecedors" asp-route-id="@item.Fornecedor.ID_Fornecedores"> @Html.DisplayFor(modelItem => item.Fornecedor.Nome) </a>
+                </td>
+                <td>
+                    <div class="btn btn-group" role="group" arial-label="Basic mixed styles example">
+                    <a asp-action="Edit" asp-route-id="@item.ID_Sementes" class="btn btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.ID_Sementes" class="btn btn-success">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID_Sementes" class="btn btn-danger">Excluir</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Semente</a>
+    <a asp-action="Index" asp-controller="Fornecedors" class="btn btn-secondary">Voltar aos Fornecedores </a>
+</p>

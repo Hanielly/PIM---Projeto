@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Relatório de Vendas";
+}
+
+<h1>Relatório de Vendas</h1>
+
+<form asp-controller="Relatorio" method="post" asp-action="ExportarPdf">
+    <div>
+        <label>Data de Início</label>
+        <input type="date" name="dataInicio" />
+    </div>
+    <div>
+        <label>Data de Fim</label>
+        <input type="date" name="dataFim" />
+    </div>
+    <button type="submit" class="btn btn-primary">Gerar Pdf</button>
+</form>
+

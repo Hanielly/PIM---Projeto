@@ -1,0 +1,39 @@
+﻿@model techFarm.Models.LoteGrao
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">Detalhes dos Grãos</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Tipo de Grãos</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoDeGrao)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Quantidade em KG</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadeKG)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Semente)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Semente.TipoDeGrao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.ID_LotesGraos">Editar Grãos</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar ao Lote</a>
+</div>

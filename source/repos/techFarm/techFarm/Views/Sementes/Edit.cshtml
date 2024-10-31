@@ -1,0 +1,45 @@
+﻿@model techFarm.Models.Semente
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-center">Editar Sementes</h1>
+
+<h4>Preencha os Campos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="Sementes">
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID_Sementes" />
+            <div class="form-group">
+                <label class="control-label">Tipo de Grão</label>
+                <input asp-for="TipoDeGrao" class="form-control" />
+                <span asp-validation-for="TipoDeGrao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KG" class="control-label"></label>
+                <input asp-for="KG" class="form-control" />
+                <span asp-validation-for="KG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">CNPJ do Fornecedor</label>
+                <select asp-for="ID_Fornecedores" class="form-control" asp-items="ViewBag.ID_Fornecedores"></select>
+                <span asp-validation-for="ID_Fornecedores" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-4 d-inline-flex gap-2">
+                <input type="submit" value="Salvar Alterações" class="btn btn-primary" />
+                <a asp-action="Index" asp-controller="Sementes" class="btn btn-secondary">Voltar à Sementes</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

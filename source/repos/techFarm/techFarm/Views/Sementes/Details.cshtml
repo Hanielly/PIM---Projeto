@@ -1,0 +1,32 @@
+﻿@model techFarm.Models.Semente
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">Detalhes das Sementes</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Tipo de Grão</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.TipoDeGrao)</dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.KG)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.KG)</dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Fornecedor)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Fornecedor.CNPJ)</dd>
+    </dl>
+</div>
+
+<div class="form-group mt-4 d-inline-flex gap-2">
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.ID_Sementes">Editar Sementes</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar à Sementes</a>
+</div>

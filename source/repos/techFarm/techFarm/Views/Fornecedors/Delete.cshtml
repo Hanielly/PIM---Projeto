@@ -1,0 +1,49 @@
+﻿@model techFarm.Models.Fornecedor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center">Excluir Dados</h1>
+
+<div>
+    <h4 class="mt-5">Confirmar Exclusão do Fornecedor?</h4>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CNPJ)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CNPJ)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+
+    <div class="d-flex gap-2 mt-3">
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="ID_Fornecedores" />
+            <input type="submit" value="Excluir Dados" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Voltar para Fornecedores</a>
+        </form>
+    </div>
+</div>

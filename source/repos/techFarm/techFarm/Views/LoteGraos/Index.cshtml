@@ -1,0 +1,51 @@
+﻿@model IEnumerable<techFarm.Models.LoteGrao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center mb-4">Lote de Grãos</h1>
+
+<table class="table table-secondary table-striped">
+    <thead>
+        <tr>
+            <th>
+                Tipo de Grão <!-- Texto fixo para exibir "Tipo de Grão" -->
+            </th>
+            <th>
+                Quantidade (Kg) <!-- Texto fixo para exibir "Quantidade (Kg)" -->
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Semente) <!-- Mantido do banco de dados -->
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoDeGrao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantidadeKG)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Semente.TipoDeGrao)
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a asp-action="Edit" asp-route-id="@item.ID_LotesGraos" class="btn btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.ID_LotesGraos" class="btn btn-success">Detalhes</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID_LotesGraos" class="btn btn-danger">Excluir</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Novo Lote</a>
+    <a asp-action="Index" asp-controller="Sementes" class="btn btn-secondary">Voltar à Sementes</a>
+</p>

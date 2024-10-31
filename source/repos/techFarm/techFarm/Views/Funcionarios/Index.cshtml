@@ -1,0 +1,51 @@
+﻿@model IEnumerable<techFarm.Models.Funcionario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center mb-4">Funcionários Cadastrados</h1>
+
+<table class="table table-light table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                Função 
+            </th>
+            <th>
+                Salário 
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salario)
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a asp-action="Edit" asp-route-id="@item.ID_Funcionarios" class="btn btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.ID_Funcionarios" class="btn btn-success">Detalhes</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID_Funcionarios" class="btn btn-danger">Excluir</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Cadastrar Funcionário</a>
+    <a asp-action="Index" asp-controller="Vendas" class="btn btn-secondary">Gerenciar Vendas</a>
+</p>

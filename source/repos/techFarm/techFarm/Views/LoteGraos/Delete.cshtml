@@ -1,0 +1,42 @@
+﻿@model techFarm.Models.LoteGrao
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center mb-4">Excluir Lote de Grãos</h1>
+
+<h3>Deseja Excluir o Lote?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Tipo de Grão</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoDeGrao)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Quantidade em KG</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadeKG)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Semente)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Semente.TipoDeGrao)
+        </dd>
+    </dl>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="ID_LotesGraos" />
+    <input type="submit" value="Excluir" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-secondary">Voltar ao Lote</a>
+</form>

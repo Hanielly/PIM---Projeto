@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\techFarm\\techFarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\views\\relatorio\\relatoriovendasviewmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:views\\relatorio\\relatoriovendasviewmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\controllers\\relatoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:controllers\\relatoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\interfaces\\irazorviewrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:interfaces\\irazorviewrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\views\\relatorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:views\\relatorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\services\\relatoriodevendasservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:services\\relatoriodevendasservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\interfaces\\irelatoriodevendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:interfaces\\irelatoriodevendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\models\\relatoriovendasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:models\\relatoriovendasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\models\\vendarelatoriodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:models\\vendarelatoriodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\interfaces\\iservicesarquivopdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:interfaces\\iservicesarquivopdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\controllers\\sementescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:controllers\\sementescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|d:\\downloads\\techfarm\\techfarm\\controllers\\lotegraoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99447C90-E213-47E2-B8BA-A2D6A6503B07}|techFarm.csproj|solutionrelative:controllers\\lotegraoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelatorioController.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\RelatorioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RelatorioController.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\RelatorioController.cs",
+              "RelativeToolTip": "Controllers\\RelatorioController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:30:31.961Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelatorioVendasViewModel.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Views\\Relatorio\\RelatorioVendasViewModel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Relatorio\\RelatorioVendasViewModel.cshtml",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Views\\Relatorio\\RelatorioVendasViewModel.cshtml",
+              "RelativeToolTip": "Views\\Relatorio\\RelatorioVendasViewModel.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T18:26:58.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelatorioDeVendasService .cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Services\\RelatorioDeVendasService .cs",
+              "RelativeDocumentMoniker": "Services\\RelatorioDeVendasService .cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Services\\RelatorioDeVendasService .cs",
+              "RelativeToolTip": "Services\\RelatorioDeVendasService .cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:41:51.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRelatorioDeVendasService.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IRelatorioDeVendasService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRelatorioDeVendasService.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IRelatorioDeVendasService.cs",
+              "RelativeToolTip": "Interfaces\\IRelatorioDeVendasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:48:09.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelatorioVendasViewModel.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Models\\RelatorioVendasViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RelatorioVendasViewModel.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Models\\RelatorioVendasViewModel.cs",
+              "RelativeToolTip": "Models\\RelatorioVendasViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:21:23.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VendaRelatorioDto.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Models\\VendaRelatorioDto.cs",
+              "RelativeDocumentMoniker": "Models\\VendaRelatorioDto.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Models\\VendaRelatorioDto.cs",
+              "RelativeToolTip": "Models\\VendaRelatorioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T17:43:22.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Views\\Relatorio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Relatorio\\Index.cshtml",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Views\\Relatorio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Relatorio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T13:24:17.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRazorViewRenderer.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IRazorViewRenderer.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRazorViewRenderer.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IRazorViewRenderer.cs",
+              "RelativeToolTip": "Interfaces\\IRazorViewRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:53:41.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:34:43.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IServicesArquivoPDF.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IServicesArquivoPDF.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IServicesArquivoPDF.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Interfaces\\IServicesArquivoPDF.cs",
+              "RelativeToolTip": "Interfaces\\IServicesArquivoPDF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:31:45.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoteGraosController.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\LoteGraosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoteGraosController.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\LoteGraosController.cs",
+              "RelativeToolTip": "Controllers\\LoteGraosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:34:09.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FuncionariosController.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\FuncionariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionariosController.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\FuncionariosController.cs",
+              "RelativeToolTip": "Controllers\\FuncionariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:34:15.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SementesController.cs",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\SementesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SementesController.cs",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Controllers\\SementesController.cs",
+              "RelativeToolTip": "Controllers\\SementesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:34:06.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\techFarm\\techFarm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Downloads\\techFarm\\techFarm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T13:34:47.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

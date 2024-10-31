@@ -1,0 +1,53 @@
+﻿@model techFarm.Models.Venda
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">Detalhes de Vendas</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Data da Venda</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataDaVenda)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Quantidade Vendida (KG)</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadeKGVendida)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Lote/Grão</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LoteGrao.TipoDeGrao)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Funcionário</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcionario.Nome)
+        </dd>
+    </dl>
+
+    <dl class="row">
+        <dt class="col-sm-2">Preço da Venda</dt>
+        <dd class="col-sm-10">
+           R$ @Html.DisplayFor(model => model.Preco)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID_Vendas" class="btn btn-primary">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar à Vendas</a>
+</div>

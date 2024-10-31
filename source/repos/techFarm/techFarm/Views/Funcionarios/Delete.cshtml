@@ -1,0 +1,42 @@
+﻿@model techFarm.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center mb-4">Excluir Dados de Funcionários</h1>
+
+<h3>Confirmar Exclusão de Dados?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Função</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcao)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Salário</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salario)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID_Funcionarios" />
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Voltar à Funcionários</a>
+    </form>
+</div>

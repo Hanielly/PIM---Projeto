@@ -1,0 +1,45 @@
+﻿@model techFarm.Models.Venda
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center mb-4">Excluir Dados de Vendas</h1>
+
+<div>
+    <h4>Deseja Excluir a Venda?</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Data da Venda</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataDaVenda)
+        </dd>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Quantidade Vendida (KG)</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadeKGVendida)
+        </dd>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Lote/Grão</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LoteGrao.TipoDeGrao)
+        </dd>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Funcionário</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcionario.Funcao)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID_Vendas" />
+        <input type="submit" value="Excluir Venda" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Voltar à Vendas</a>
+    </form>
+</div>

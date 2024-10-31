@@ -1,0 +1,50 @@
+﻿@model techFarm.Models.Venda
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center mb-4">Adicionar Nova Venda</h1>
+
+<h4>Preencha o Formulário</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Data da Venda</label>
+                <input asp-for="DataDaVenda" class="form-control" />
+                <span asp-validation-for="DataDaVenda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Quantidade Vendida (KG)</label>
+                <input asp-for="QuantidadeKGVendida" class="form-control" />
+                <span asp-validation-for="QuantidadeKGVendida" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Lote/Grãos</label>
+                <select asp-for="ID_LotesGraos" class ="form-control" asp-items="ViewBag.ID_LotesGraos"></select>
+            </div>
+
+             <label asp-for="Preco" class="form-label">Preço </label>
+             <div class="input-group">
+                 <span class="input-group-text" id="inputGroupPrepend2">R$</span>
+                 <input asp-for="Preco" type="number" class="form-control" aria-describedby="inputGroupPrepend2" required>
+             </div>
+
+            <div class="form-group">
+                <label class="control-label">Funcionários</label>
+                <select asp-for="ID_Funcionarios" class ="form-control" asp-items="ViewBag.ID_Funcionarios"></select>
+            </div>
+            <div class="form-group mt-3 d-inline-flex gap-2">
+                <input type="submit" value="Adicionar Venda" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Voltar à Vendas</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,40 @@
+﻿@model techFarm.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">Detalhes de Funcionários</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Função</dt> <!-- Texto fixo para exibir "Função" -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Funcao)
+        </dd>
+    </dl>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">Salário</dt> <!-- Texto fixo para exibir "Salário" -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salario)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.ID_Funcionarios">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar à Funcionários</a>
+</div>
